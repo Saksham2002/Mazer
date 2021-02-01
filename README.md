@@ -9,6 +9,7 @@ Background - complete
 Initial Base - complete  
 Sound - In progress  
 Sprites - Designing in progress  
+FOV - In Progress  
 
 # Requirements
 
