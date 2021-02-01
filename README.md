@@ -4,12 +4,15 @@ A simple pygame based maze game filled with a lots of surprises. In development 
 
 # Status
 
-Maze wall - In progress  
+Maze wall - In progress - SJ2002
 Background - complete  
 Initial Base - complete  
-Sound - In progress  
+Sound - In progress - Bhagwadaari 
 Sprites - Designing in progress  
-FOV - In Progress  
+Attack And Collision - Parrrriiiii  
+Mobs spawn and control - Alto  
+Reaper Controls - Oki Doki pring pring  
+Trigger Effects, Score, Main menu -  Bhagwadaari  
 
 # Requirements
 
