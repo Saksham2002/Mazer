@@ -13,7 +13,7 @@ Attack And Collision - Parrrriiiii
 Mobs spawn and control - Alto  
 Reaper Controls - Oki Doki pring pring  
 Trigger Effects, Score, Main menu -  Bhagwadaari  
-Health bar: Saksham and oki doki pring pring
+Health bar: Saksham and oki doki pring pring  
 PPT= ALLL
 
 # Requirements
