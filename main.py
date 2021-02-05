@@ -1,4 +1,5 @@
 import pygame
+
 bg = pygame.image.load("back.jpg")
 ico = pygame.image.load("icon.png")
 win = pygame.display.set_mode((1024,500))
