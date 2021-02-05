@@ -12,7 +12,7 @@ Sprites - Designing in progress
 Attack And Collision - Parrrriiiii  
 Mobs spawn and control - Alto  
 Reaper Controls - Oki Doki pring pring  
-Trigger Effects, Score, Main menu -  Bhagwadaari
+Trigger Effects, Score, Main menu -  Bhagwadaari  
 Health bar: Saksham and oki doki pring pring
 PPT= ALLL
 
