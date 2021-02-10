@@ -1,17 +1,28 @@
 import pygame
-
 bg = pygame.image.load("back.jpg")
-ico = pygame.image.load("icon.png")
+ico = pygame.image.load("moon.png")
 win = pygame.display.set_mode((1024,500))
 pygame.display.set_caption("Mazer: The Legacy Unfolded")
 pygame.display.set_icon(ico)
 
-x,y,wid,hei,vel=250,250,15,25,10
-run = True
+class player:
+    def __init__(self,x,y,width,height):
+        self.x = x
+        self.y = y
+        self.width = width
+        self.height = height
+        self.vel = 10
+        self.left = False
+        self.right = False
+
+man = player(250,250,15,25)
+
 def winfill():
     win.blit(bg,(0,0))
-    pygame.draw.rect(win,(255,120,45),(x,y,wid,hei))
+    pygame.draw.rect(win,(255,120,45),(man.x,man.y,man.width,man.height))
     pygame.display.update()
+
+run = True
 
 while run:
     clock = pygame.time.Clock()
@@ -22,17 +33,17 @@ while run:
         
     keys = pygame.key.get_pressed()
     if keys[pygame.K_LEFT]:
-        if x>0:
-            x-=vel
+        if man.x>0:
+            man.x-=man.vel
     if keys[pygame.K_RIGHT]:
-        if x<1000:
-            x+=vel
+        if man.x<1005:
+            man.x+=man.vel
     if keys[pygame.K_UP]:
-        if y>0:
-            y-=vel
+        if man.y>0:
+            man.y-=man.vel
     if keys[pygame.K_DOWN]:
-        if y<480:
-            y+=vel
+        if man.y<480:
+            man.y+=man.vel
     winfill()
     clock.tick(60)
 
