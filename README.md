@@ -7,13 +7,13 @@ A simple pygame based maze game filled with a lots of surprises. In development 
 Maze wall - In progress - SJ2002
 Background - complete  
 Initial Base - complete  
-Sound - In progress - Bhagwadaari  
+Sound - In progress - Ayush 
 Sprites - Designing in progress  
-Attack And Collision - Parrrriiiii  
-Mobs spawn and control - Alto  
-Reaper Controls - Oki Doki pring pring  
-Trigger Effects, Score, Main menu -  Bhagwadaari  
-Health bar: Saksham and oki doki pring pring  
+Attack And Collision - Paritosh  
+Mobs spawn and control - Altamash  
+Reaper Controls - Shreya  
+Trigger Effects, Score, Main menu -  Ayush  
+Health bar: Saksham and Shreya  
 PPT= ALLL
 
 # Requirements
