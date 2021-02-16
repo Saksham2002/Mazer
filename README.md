@@ -8,7 +8,7 @@ Maze wall - In progress - SJ2002
 Background - complete  
 Initial Base - complete  
 Sound - In progress - Ayush  
-Sprites - Designing in progress  
+Sprites - Done  
 Attack And Collision - Paritosh  
 Mobs spawn and control - Altamash  
 Reaper Controls - Shreya  
