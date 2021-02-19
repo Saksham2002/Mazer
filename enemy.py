@@ -1,9 +1,23 @@
 import pygame
 import math
 import util
+import random
 
+spawnCD = 0
+spawnCDMAX = 200
+
+def spawn():
+    global spawnCD, spawnCDMAX
+    spawnCD -= 1
+    if spawnCD <= 0:
+        newenemy = Enemy()
+        Enemy.enemies.add(newenemy)
+        spawnCD = spawnCDMAX
+        newenemy.rect.x = random.randrange(-100, -50)
+        newenemy.rect.y = random.randrange(-50, 650)
 
 class Enemy(pygame.sprite.Sprite):
+    enemies = pygame.sprite.Group()
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
 
