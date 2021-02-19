@@ -4,11 +4,11 @@ A simple pygame based maze game filled with a lots of surprises. In development 
 
 # Contributors
 
-@ShreyaBose
-@Altmxx
-@Paritosh
-@Ayush
-@Saksham
+@ShreyaBose  
+@Altmxx  
+@Paritosh  
+@Ayush  
+@Saksham  
 
 # Requirements
 
