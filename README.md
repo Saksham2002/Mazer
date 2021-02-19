@@ -25,4 +25,5 @@ Pygame_menu
 
 # Screenshots
 
-
+![alt text](https://github.com/Saksham2002/Mazer/blob/main/intro.jpg?raw=true)
+![alt text](https://github.com/Saksham2002/Mazer/blob/main/image.jpg?raw=true)
