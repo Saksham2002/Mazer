@@ -24,8 +24,8 @@ class Player(object):
     def __init__(self):
         self.image = pygame.image.load("reap1.png")  # reaper
         self.rect = self.image.get_rect()
-        self.rect.x = 750
-        self.rect.y = 100
+        self.rect.x = 250
+        self.rect.y = 550
     def move(self, dx, dy):
         
         # Move each axis separately. Note that this checks for collisions both times.
@@ -115,7 +115,7 @@ def start_the_game():
         # Draw the scene
         screen.blit(bg,(-1120,0))
         for wall in walls:
-            pygame.draw.rect(screen, (255, 154, 153), wall.rect)
+            pygame.draw.rect(screen, (255, 153, 102), wall.rect)
         pygame.draw.rect(screen, (255, 0, 0), end_rect)
         screen.blit(player.image, player.rect)
         Sco = pygame.font.Font.render(fo,"Score: "+str(scor), 5,(255,255,255),True)
