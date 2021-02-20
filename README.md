@@ -5,7 +5,7 @@ A simple pygame based maze game filled with a lots of surprises. In development 
 # Contributors
 
 @ShreyaBose  
-@Altmxx  
+@Altamash  
 @Paritosh  
 @Ayush  
 @Saksham  
