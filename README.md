@@ -1,14 +1,10 @@
 # Mazer
 
-A simple pygame based maze game filled with a lots of surprises. In development stage right now!
+A simple pygame based maze game which is a combination of pac-man and among us but with a twist.
 
-# Contributors
+## In development stage right now! 
 
-@ShreyaBose  
-@Altamash  
-@Paritosh  
-@Ayush  
-@Saksham  
+Some minor details are needed to be added to it..   
 
 # Requirements
 
@@ -21,3 +17,11 @@ Pygame_menu
 
 ![alt text](https://github.com/Saksham2002/Mazer/blob/main/intro.png?raw=true)
 ![alt text](https://github.com/Saksham2002/Mazer/blob/main/image.png?raw=true)
+
+# Heartfelt Thanks to my buddies! a.k.a Contributors
+
+@ShreyaBose  
+@Altamash  
+@Paritosh  
+@Ayush  
+@Saksham
