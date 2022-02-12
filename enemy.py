@@ -42,6 +42,13 @@ class Enemy(pygame.sprite.Sprite):
             return 1
         self.rect.x += xmove
         self.rect.y += ymove
+    def disp(self,k,player):
+        xdiff = (player.rect.x + player.rect.width/2) - self.rect.x + self.rect.width/2
+        #giving target input from mouse left and right keys
+        ydiff = (player.rect.y + player.rect.height/2) - self.rect.y + self.rect.height/2
+        pygame.draw.rect(k,(255,0,0),(xdiff-14,ydiff-22,20,5))
+        pygame.draw.rect(k,(0,255,0),(xdiff-14,ydiff-22,20,5))
+        pygame.display.update()
     def takedamage(self):
         self.health -= 1
         if self.health <= 0:

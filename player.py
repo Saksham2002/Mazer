@@ -1,25 +1,16 @@
-import pygame
-import math
 import random
-pygame.init()
+import math
+import pygame
 
-
-class PlayerActive(pygame.sprite.Sprite):
-    def __init__(self):
-        pygame.sprite.Sprite.__init__(self)
-
-        self.image = pygame.image.load("mob.png")  # USE S in surface s capital
-        self.rect = self.image.get_rect()  #rect is py game object for storing rectanle codinates
-
-        self.rect.x = 100
-        self.rect.y = 100
-
-        self.speed = 5
-        self.Spawn_delay = 0
-        self.Spawn_delay_max = 30
-        self.ammo = []
-        self.bullets = pygame.sprite.Group()
-        self.cd = 10
-        self.cdmax = 10
-        self.isAlive = True
-
+class player:
+    def __init__(self,scre,ht=5):
+        self.scr = scre
+        self.health = ht
+        self.x = random.randrange(900)
+        self.y = random.randrange(500)
+    def bardisp(self):
+        pygame.draw.rect(self.scr,(255,0,0),(xdiff-14,ydiff-22,20,5))
+        pygame.draw.rect(self.scr,(0,255,0),(xdiff-14,ydiff-22,20,5))
+        pygame.display.update()
+    def playdisp(self):
+         
