@@ -28,8 +28,8 @@ Pygame_menu
   <img src="https://contrib.rocks/image?repo=Saksham2002/Mazer" />
 </a>
 
-@ShreyaBose  [Profile](https://github.com/SHREYABOSE1306)
-@Altamash    [Profile](https://github.com/altmxx)
-@Paritosh    [Profile](https://github.com/paritoshtripathi935)
-@Ayush       [Profile](https://github.com/ayush-marwadi)
-@Saksham     [Profile](https://github.com/Saksham2002)
+@ShreyaBose  [Profile](https://github.com/SHREYABOSE1306)<br/>
+@Altamash    [Profile](https://github.com/altmxx)<br/>
+@Paritosh    [Profile](https://github.com/paritoshtripathi935)<br/>
+@Ayush       [Profile](https://github.com/ayush-marwadi)<br/>
+@Saksham     [Profile](https://github.com/Saksham2002)<br/>
