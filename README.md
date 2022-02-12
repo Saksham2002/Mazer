@@ -20,8 +20,8 @@ Pygame_menu
 
 # Heartfelt Thanks to my buddies! a.k.a Contributors
 
-@ShreyaBose  
-@Altamash  
-@Paritosh  
-@Ayush  
-@Saksham
+@ShreyaBose  [Profile](https://github.com/SHREYABOSE1306)
+@Altamash    [Profile](https://github.com/altmxx)
+@Paritosh    [Profile](https://github.com/paritoshtripathi935)
+@Ayush       [Profile](https://github.com/ayush-marwadi)
+@Saksham     [Profile](https://github.com/Saksham2002)
