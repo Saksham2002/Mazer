@@ -21,7 +21,7 @@ class Enemy(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
 
-        self.image = pygame.image.load("mob.png")
+        self.image = pygame.image.load("images/mob.png")
         self.rect = self.image.get_rect()  #getting co-ordinates
         self.speed = 3
         self.health = 5

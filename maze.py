@@ -7,15 +7,15 @@ from enemy import spawn
 # initialising pygame
 pygame.init()
 screen = pygame.display.set_mode((1024,680))
-ico = pygame.image.load("moon.png")
+ico = pygame.image.load("images/moon.png")
 pygame.display.set_icon(ico)
 ##########################################         MAZER Ver 2.0
-bg = pygame.image.load("back.jpg")
-fo = pygame.font.Font("diodrum.woff",25)
-ban = pygame.font.Font("arc.ttf",50)
-qs = pygame.font.Font("arc.ttf",20)
-mob = pygame.image.load("mob.png").convert()
-pygame.mixer.music.load("back2.mp3")
+bg = pygame.image.load("images/back.jpg")
+fo = pygame.font.Font("fonts/diodrum.woff",25)
+ban = pygame.font.Font("fonts/arc.ttf",50)
+qs = pygame.font.Font("fonts/arc.ttf",20)
+mob = pygame.image.load("images/mob.png").convert()
+pygame.mixer.music.load("music/back2.mp3")
 pygame.mixer.music.play(-1,2.0)
 scor,sflag= 0,0
 sp = 10
@@ -23,7 +23,7 @@ class Player(object):
     global reap
     
     def __init__(self):
-        self.image = pygame.image.load("reap.png")  # reaper
+        self.image = pygame.image.load("images/reap.png")  # reaper
         self.rect = self.image.get_rect()
         self.rect.x = 250
         self.rect.y = 550
@@ -153,7 +153,7 @@ def start_the_game():
         status()
 font = pygame_menu.font.FONT_8BIT
 mazer = pygame_menu.themes.Theme(title_font_size= 55,title_font_color=(255,255,255),title_background_color= (0, 51, 102),widget_font=font,title_font=font,title_bar_style= pygame_menu.widgets.MENUBAR_STYLE_TITLE_ONLY)
-st  = pygame_menu.baseimage.BaseImage("start.png",drawing_mode=101, drawing_offset=(0, 0), load_from_file=True)
+st  = pygame_menu.baseimage.BaseImage("images/start.png",drawing_mode=101, drawing_offset=(0, 0), load_from_file=True)
 mazer.background_color = st
 menu = pygame_menu.Menu(680, 1024,theme=mazer,title='MAZER')
 menu.add_button('Press Enter', start_the_game)

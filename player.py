@@ -13,4 +13,4 @@ class player:
         pygame.draw.rect(self.scr,(0,255,0),(xdiff-14,ydiff-22,20,5))
         pygame.display.update()
     def playdisp(self):
-         
+         pass;
