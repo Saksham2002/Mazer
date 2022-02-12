@@ -13,6 +13,13 @@ Python = 3.8, Issues reported with Python 3.9
 Pip  
 Pygame_menu
 
+# Changes to Incorporate
+
+--> Bigger Character images
+--> Maze Design 
+--> Game Levels
+--> Animations and Health Bars
+
 # Screenshots
 
 ![alt text](https://github.com/Saksham2002/Mazer/blob/main/images/intro.png?raw=true)
