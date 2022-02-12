@@ -20,6 +20,10 @@ Pygame_menu
 
 # Heartfelt Thanks to my buddies! a.k.a Contributors
 
+<a href="https://github.com/Saksham2002/Mazer/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Saksham2002/Mazer" />
+</a>
+
 @ShreyaBose  [Profile](https://github.com/SHREYABOSE1306)
 @Altamash    [Profile](https://github.com/altmxx)
 @Paritosh    [Profile](https://github.com/paritoshtripathi935)
