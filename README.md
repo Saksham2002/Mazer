@@ -3,8 +3,12 @@
 A simple pygame based maze game which is a combination of pac-man and among us but with a twist.
 
 ## In development stage right now! 
+# Changes to Incorporate
 
-Some minor details are needed to be added to it..   
+--> Bigger Character images<br/>
+--> Maze Design <br/>
+--> Game Levels<br/>
+--> Animations and Health Bars<br/>   
 
 # Requirements
 
@@ -12,13 +16,6 @@ Pygames >= 2.0
 Python = 3.8, Issues reported with Python 3.9  
 Pip  
 Pygame_menu
-
-# Changes to Incorporate
-
---> Bigger Character images
---> Maze Design 
---> Game Levels
---> Animations and Health Bars
 
 # Screenshots
 
