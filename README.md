@@ -16,7 +16,7 @@ Pygame_menu
 # Screenshots
 
 ![alt text](https://github.com/Saksham2002/Mazer/blob/main/intro.png?raw=true)
-![alt text](https://github.com/Saksham2002/Mazer/blob/main/image.png?raw=true)
+![image](https://user-images.githubusercontent.com/31695520/153708918-a0f38cc7-c5ff-4cd9-b269-3cbb6ecba70c.png)
 
 # Heartfelt Thanks to my buddies! a.k.a Contributors
 
