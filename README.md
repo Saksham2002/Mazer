@@ -2,7 +2,11 @@
 
 A simple pygame based maze game which is a combination of pac-man and among us but with a twist.
 
-## In development stage right now! 
+## Waht is Mazer?
+1. The game is inspired from the retro game like Pacman and one of the modern games like Among Us. The player is the reaper which is being chased by the mobs (called ghosts). Reaper must avoid the ghosts’ direct contact and at the same time should attack the ghosts at the right time to score points
+2. The main importance of making our project is to learn and implement our understanding of python and Pygame. Along with that the project management made us work like professionals working in a team and have a clear focus on what we want to make.
+3. One of the needs of making this project is to also to learn how to use classes which not only makes the code shorter but also helps to organize the code in the cleaner way.
+
 # Changes to Incorporate
 
 --> Bigger Character images<br/>
